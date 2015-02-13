@@ -1,7 +1,7 @@
 {
   "name": "ArenaJS",
   "description": "ArenaJS",
-  "homepage": "https://github.com/cadenichols/ArenaJS”,
+  "homepage": "https://github.com/cadenichols/ArenaJS",
   "keywords": [
     "gulp",
     "jshint",
@@ -11,7 +11,7 @@
   "author": "Cade Nichols <cade@cadenichols.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cadenichols/ArenaJS"
+    "url": "git://github.com/cadenichols/ArenaJS.git"
   },
   "version": "1.0.0",
   "scripts": {

@@ -1,3 +1,44 @@
-h1{
-  color :red;
+body {
+
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weapon, .fighter{
+  background-color: white;
+  display: inline-block;
+
+  &> div:first-child{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  &> div:nth-child(2){
+    padding: 10px;
+    font-family: monospace;
+  }
+}
+
+.choose{
+  border: 1px solid red;
+  background-color: #FF6666;
+}
+
+.fighting {
+  background-color: #F0F7A3
+}
+
+.dead{
+  background-color: #555555;
+  &> div:first-child {
+    filter: grayscale(70%);
+  }
+}
+
+.taken{
+  background-color: grey;
 }
